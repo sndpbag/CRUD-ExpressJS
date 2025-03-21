@@ -15,6 +15,9 @@ app.get("/",(req,res )=>{
     res.render("index.ejs");
 })
 
+app.get("/add_user",(req,res) =>{
+    res.render("add_users.ejs");
+})
 
 
 app.listen(port, () =>{
